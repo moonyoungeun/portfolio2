@@ -1,17 +1,141 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 5 | @import "responsive";
- *   |         ^^^^^^^^^^^^
- *   '
- *   scss/style.scss 5:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 5 \2502  @import \"responsive\";\a   \2502          ^^^^^^^^^^^^\a   \2575 \a   scss/style.scss 5:9  root stylesheet";
+/* RESET */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Kaushan+Script&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* FONTS*/
+.display_flex {
+  display: flex !important;
+}
+
+body {
+  width: 100vw;
+  height: 10000px;
+  background-color: #1b140b;
+}
+
+header {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+header .header_gnb {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px 45px;
+}
+header .header_gnb .header_gnb_logo {
+  width: 22vh;
+  height: 6vh;
+  background: url("../img/logo_white.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+header .header_gnb .header_gnb_menu {
+  width: 3vh;
+  height: 3vh;
+  background: url("https://www.designnas.com/portfolio/bx-site/sweet_home/img/section01/menu.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+header .gnb_opened {
+  width: 100vw;
+  height: 75vh;
+  padding: 0px 45px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+}
+header .gnb_opened .gnb_menu_top {
+  display: flex;
+  justify-content: space-between;
+}
+header .gnb_opened .gnb_menu_top .gnb_menu_top_left {
+  display: flex;
+  flex-direction: column;
+  font: 48px/1.5 "Bebas Neue";
+}
+header .gnb_opened .gnb_menu_top .gnb_menu_top_left > a {
+  color: rgba(255, 255, 255, 0.514);
+}
+header .gnb_opened .gnb_menu_top .gnb_menu_top_left > a:hover {
+  color: #fff;
+}
+header .gnb_opened .gnb_menu_top .gnb_menu_top_right {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  font: 14px/1.5 "Bebas Neue";
+}
+header .gnb_opened .gnb_menu_top .gnb_menu_top_right > p {
+  color: rgba(255, 255, 255, 0.317);
+}
+header .gnb_opened .gnb_menu_bottom {
+  display: flex;
+  justify-content: space-between;
+}
+header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_left {
+  display: flex;
+  font: 18px/1 "Bebas Neue";
+}
+header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_left > a {
+  color: #fff;
+  margin-right: 10px;
+}
+header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_left > a:hover {
+  text-decoration: underline;
+}
+header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right {
+  display: flex;
+  font: 18px/1 "Bungee";
+}
+header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
+  color: red;
+}
+
+.ye01 {
+  position: absolute;
+  width: 100vw;
+  height: 1000px;
+  top: 2000px;
+  left: 0;
+  background-color: skyblue;
+  opacity: 0.5;
+  border: 1px solid black;
+}
+
+.ye02 {
+  position: absolute;
+  width: 100vw;
+  height: 1000px;
+  top: 2000px;
+  left: 0;
+  background-color: blue;
+  opacity: 0.5;
+  border: 1px solid black;
+}
+
+.ye03 {
+  position: absolute;
+  width: 100vw;
+  height: 1000px;
+  top: 2000px;
+  left: 0;
+  background-color: orange;
+  opacity: 0.5;
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=style.css.map */
