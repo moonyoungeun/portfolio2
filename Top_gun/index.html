@@ -14,7 +14,7 @@
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
     ></script>
-    <script src="js/skrollr.js"></script>
+
     <title>Top Gun</title>
   </head>
 
@@ -52,18 +52,33 @@
         </div>
       </div>
     </header>
-    <!-- TOP 0 to 1000 -->
-    <section class="ye01">
+    <!-- TOP 0 to 5000 -->
+    <section class="ye01" data-0="top:0px;" data-5000="top:5000px;">
       <article>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div class="main"></div>
+        <div
+          class="text1"
+          data-0="transition:translate(0px,0px);"
+          data-5000="transition:translate(800px,0px);"
+        ></div>
+        <div class="text2" data-0="" data-5000=""></div>
+        <div class="F-14_1" data-0="" data-5000=""></div>
+        <div class="F-14_2" data-0="" data-5000=""></div>
+        <div class="F-14_3" data-0="" data-5000=""></div>
+        <div class="F-14_4" data-0="" data-5000=""></div>
+        <div class="F-14_5" data-0="" data-5000=""></div>
       </article>
     </section>
-    <!-- TOP 1000 to 2000 -->
+    <!-- TOP 5000 to 10000 -->
     <section class="ye02">
       <article>
-        <div></div>
+        <div class="charicter1"></div>
+        <div class="charicter2"></div>
+        <div class="charicter3"></div>
+        <div class="charicter4"></div>
+        <div class="charicter5"></div>
+        <div class="charicter6"></div>
+        <div class="charicter7"></div>
         <div></div>
         <div></div>
       </article>
@@ -76,5 +91,11 @@
         <div></div>
       </article>
     </section>
+
+    <!-- SCROLL JS -->
+    <script type="text/javascript" src="./js/skrollr.js"></script>
+    <script type="text/javascript">
+      var s = skrollr.init();
+    </script>
   </body>
 </html>

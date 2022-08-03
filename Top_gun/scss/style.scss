@@ -14,7 +14,7 @@
 body {
   width: 100vw;
   height: 10000px;
-  background-color: #1b140b;
+  background-color: #000000;
   // overflow: hidden;
 }
 
@@ -35,6 +35,7 @@ header {
       background: url("../img/logo_white.png");
       background-size: contain;
       background-repeat: no-repeat;
+      z-index: 1;
     }
 
     //logo
@@ -127,30 +128,110 @@ header {
   position: absolute;
   width: 100vw;
   height: 1000px;
-  top: 2000px;
+  top: 0px;
   left: 0;
-  background-color: skyblue;
-  opacity: 0.5;
-  border: 1px solid black;
+  background-color: red;
+
+  background-image: url("../img/pg4_main_bg.png");
+  background-repeat: no-repeat;
+  // background-size: cover;
+
+  article {
+    .main {
+      position: absolute;
+      background-image: url("../img/pg4_main_tom.png");
+      width: 100vw;
+      height: 100vh;
+      left: 0vw;
+      background-repeat: no-repeat;
+      // background-size: cover;
+
+      z-index: 3;
+    }
+    .text1 {
+      display: flex;
+      position: absolute;
+      background-image: url("../img/pg4_main_text.png");
+      width: 100vw;
+      height: 100vh;
+      top: 0;
+      background-repeat: no-repeat;
+    }
+    .text2 {
+      position: absolute;
+      background-image: url("../img/pg4_main_text2.png");
+      width: 100vw;
+      height: 150vh;
+      top: 0vw;
+      background-repeat: no-repeat;
+    }
+    .F-14_1 {
+      position: absolute;
+      background-image: url("../img/f-14_2.png");
+      width: 100vw;
+      height: 150vh;
+      top: 0vw;
+      background-repeat: no-repeat;
+    }
+    .F-14_2 {
+      position: absolute;
+      background-image: url("../img/f-14_3.png");
+      width: 100vw;
+      height: 150vh;
+      top: 0vw;
+      background-repeat: no-repeat;
+    }
+    .F-14_3 {
+      position: absolute;
+      background-image: url("../img/f-14_4.png");
+      width: 100vw;
+      height: 150vh;
+      top: 0vw;
+      background-repeat: no-repeat;
+    }
+    .F-14_4 {
+      position: absolute;
+      background-image: url("../img/f-14_5.png");
+      width: 100vw;
+      height: 150vh;
+      top: 0vw;
+      background-repeat: no-repeat;
+    }
+    .F-14_5 {
+      position: absolute;
+      background-image: url("../img/f-14_6.png");
+      width: 100vw;
+      height: 150vh;
+      top: 0vw;
+      background-repeat: no-repeat;
+    }
+  }
 }
 
 .ye02 {
-  position: absolute;
-  width: 100vw;
-  height: 1000px;
-  top: 2000px;
-  left: 0;
-  background-color: blue;
-  opacity: 0.5;
-  border: 1px solid black;
+  // position: absolute;
+  // width: 100vw;
+  // height: 2000px;
+  // top: 1407px;
+  // left: 0;
+  // background-color: #1b140b;
+
+  // .charicter1 {
+  //   position: absolute;
+  //   background-image: url("../img/charicter/pg5_maverick.png");
+  //   width: 100vw;
+  //   height: 500vh;
+  //   top: 1407vw;
+  //   background-repeat: no-repeat;
+  // }
 }
 .ye03 {
-  position: absolute;
-  width: 100vw;
-  height: 1000px;
-  top: 2000px;
-  left: 0;
-  background-color: orange;
-  opacity: 0.5;
-  border: 1px solid black;
+  // position: absolute;
+  // width: 100vw;
+  // height: 1000px;
+  // top: 2000px;
+  // left: 0;
+  // background-color: orange;
+  // opacity: 0.5;
+  // border: 1px solid black;
 }
