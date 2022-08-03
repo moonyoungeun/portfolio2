@@ -442,7 +442,19 @@ header {
     background-size: 18vw;
     transform: rotate(-2deg);
   }
+
+  // .line0 {
+  //   position: absolute;
+  //   background-image: url("../img/f-14_4.png");
+  //   width: 100vw;
+  //   height: 100vh;
+  //   top: 0;
+  //   background-repeat: no-repeat;
+  //   background-size: 5vw;
+  // }
+
   .line1 {
+    position: absolute;
     background-image: url("../img/charicter/1.png");
     width: 100vw;
     height: 100vh;
@@ -453,35 +465,38 @@ header {
   }
 
   .line2 {
+    position: absolute;
     background-image: url("../img/charicter/2.png");
     width: 100vw;
     height: 100vh;
-    top: 5vh;
+    top: 6vh;
     left: 0vw;
     background-repeat: no-repeat;
-    background-size: 50vw;
+    background-size: 80vw;
     opacity: 0.4;
   }
 
   .line3 {
+    position: absolute;
     background-image: url("../img/charicter/3.png");
     width: 100vw;
     height: 100vh;
     top: 5vh;
     left: 0vw;
     background-repeat: no-repeat;
-    background-size: 50vw;
+    background-size: 100vw;
     opacity: 0.4;
   }
 
   .line4 {
+    position: absolute;
     background-image: url("../img/charicter/4.png");
     width: 100vw;
     height: 100vh;
-    top: 1vw;
+    bottom: 1vw;
     left: 0vw;
     background-repeat: no-repeat;
-    background-size: 50vw;
+    background-size: 100vw;
     opacity: 0.4;
   }
 }
