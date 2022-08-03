@@ -21,8 +21,8 @@ a {
 
 body {
   width: 100vw;
-  height: 10000px;
-  background-color: #000000;
+  height: 30000px;
+  background-color: #ff0000;
 }
 
 header {
@@ -120,7 +120,7 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   position: absolute;
   background-image: url("../img/pg4_main_tom.png");
   width: 100vw;
-  height: 100vh;
+  height: 107vh;
   left: 0vw;
   background-repeat: no-repeat;
   z-index: 3;
@@ -145,32 +145,31 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
 .ye01 article .F-14_1 {
   position: absolute;
   background-image: url("../img/f-14_2.png");
-  width: 100vw;
-  height: 150vh;
-  top: 0vw;
+  width: 150vw;
+  height: 200vh;
   background-repeat: no-repeat;
 }
 .ye01 article .F-14_2 {
   position: absolute;
   background-image: url("../img/f-14_3.png");
   width: 100vw;
-  height: 150vh;
-  top: 0vw;
+  height: 100vh;
+  top: 5vw;
   background-repeat: no-repeat;
 }
 .ye01 article .F-14_3 {
   position: absolute;
   background-image: url("../img/f-14_4.png");
-  width: 100vw;
-  height: 150vh;
-  top: 0vw;
+  width: 50vw;
+  height: 120vh;
+  bottom: 5vw;
   background-repeat: no-repeat;
 }
 .ye01 article .F-14_4 {
   position: absolute;
   background-image: url("../img/f-14_5.png");
   width: 100vw;
-  height: 150vh;
+  height: 100vh;
   top: 0vw;
   background-repeat: no-repeat;
 }
@@ -178,9 +177,37 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   position: absolute;
   background-image: url("../img/f-14_6.png");
   width: 100vw;
-  height: 150vh;
+  height: 100vh;
   top: 0vw;
   background-repeat: no-repeat;
+}
+
+.ye02 {
+  position: absolute;
+  width: 100vw;
+  height: 1000px;
+  top: 10000px;
+  left: 0;
+  background-color: #1b140b;
+}
+.ye02 .text1 {
+  position: absolute;
+  font-family: "Bebas Neue";
+  top: 5vw;
+  left: 5vw;
+  font-size: 100px;
+  color: #fff;
+}
+.ye02 .text2 {
+  position: absolute;
+  width: 100vw;
+  height: 500px;
+  top: 6vw;
+  right: 5vw;
+  text-align: end;
+  font-size: 30px/1;
+  font-family: "Noto Sans KR";
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
