@@ -129,24 +129,32 @@ header {
 .ye01 {
   position: absolute;
   width: 100vw;
-  height: 1000px;
+  height: 5000px;
+  background-size: 100vw;
   top: 0px;
   left: 0;
-  background-color: red;
+  background-color: #1b140b;
 
-  background-image: url("../img/pg4_main_bg.png");
-  background-repeat: no-repeat;
+  
   // background-size: cover;
 
   article {
- 
+    position: fixed;
+    background-image: url("../img/main_page_4.jpg.jfif");
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 1000px;
+  background-size: 100vw;
+  opacity: 0.3;
+  top: 0;
     .main {
       position: absolute;
       background-image: url("../img/pg4_main_tom.png");
       width: 100vw;
-      height: 107vh;
+      height: 103vh;
       left: 0vw;
       background-repeat: no-repeat;
+      background-size: 100vw;
       // background-size: cover;
 
       z-index: 3;
@@ -159,6 +167,7 @@ header {
       height: 100vh;
       top: 0;
       background-repeat: no-repeat;
+      background-size: 90vw;
     }
     .text2 {
       position: absolute;
@@ -167,6 +176,7 @@ header {
       height: 150vh;
       top: 0vw;
       background-repeat: no-repeat;
+      background-size: 90vw;
     }
     .F-14_1 {
       position: absolute;
@@ -175,18 +185,20 @@ header {
       height: 200vh;
       background-size: 80vw;
       top: 1vh;
+      background-repeat: no-repeat;
 
       
 
-      background-repeat: no-repeat;
+      
     }
     .F-14_2 {
       position: absolute;
       background-image: url("../img/f-14_3.png");
       width: 100vw;
       height: 100vh;
-      top: 5vw;
+      top: 0vw;
       background-repeat: no-repeat;
+      background-size: 100vw;
     }
     .F-14_3 {
       position: absolute;
@@ -195,6 +207,7 @@ header {
       height: 120vh;
       bottom: 5vw;
       background-repeat: no-repeat;
+      background-size: 90vw;
     }
     .F-14_4 {
       position: absolute;
@@ -203,6 +216,7 @@ header {
       height: 100vh;
       top: 0vw;
       background-repeat: no-repeat;
+      background-size: 100vw;
     }
     .F-14_5 {
       position: absolute;
@@ -211,6 +225,7 @@ header {
       height: 100vh;
       top: 0vw;
       background-repeat: no-repeat;
+      background-size: 100vw;
     }
   }
 }
@@ -218,237 +233,246 @@ header {
 .ye02 {
   position: absolute;
   width: 100vw;
-  height: 1000px;
+  height: 4000px;
   top: 6000px;
   left: 0;
   background-color: #1b140b;
 
   .text1 {
-    position: absolute;
+    position: fixed;
     font-family: "Bebas Neue";
     //Bebas Neue//
-    top: 5vw;
+    top: 2vw;
     left: 5vw;
     font-size: 90px;
     color: #fff;
   }
 
   .text2 {
-    position: absolute;
+    position: fixed;
     width: 100vw;
     height: 500px;
-    top: 6vw;
+    top: 3vw;
     right: 5vw;
     text-align: end;
     font-size: 15px/2;
     font-family: "Noto Sans KR";
     color: #fff;
   }
-
-  .charicter1 {
-    position: absolute;
-    background-image: url("../img/charicter/pg5_maverick.png");
+  .charicter{
+    position: fixed;
     width: 100vw;
     height: 100vh;
-    top: 21vw;
-    left: 15vw;
-    background-repeat: no-repeat;
-    background-size: 18vw;
-    transform: rotate(3deg);
-    opacity: 1;
-
-    &:hover {
-      opacity: 0;
+    top: 0;
+    right: 5%;
+  
+    .charicter1 {
+      position: absolute;
+      background-image: url("../img/charicter/pg5_maverick.png");
+      width: 100vw;
+      height: 100vh;
+      top: 21vw;
+      left: 15vw;
+      background-repeat: no-repeat;
+      background-size: 18vw;
+      transform: rotate(3deg);
+      opacity: 1;
+  
+      &:hover {
+        opacity: 0;
+      }
     }
-  }
-
-  .charicter1-1 {
-    position: absolute;
-    background-image: url("../img/charicter/pg5_maverick2.png");
-    width: 100vw;
-    height: 100vh;
-    top: 21vw;
-    left: 15vw;
-    background-repeat: no-repeat;
-    background-size: 18vw;
-    transform: rotate(3deg);
-  }
-
-  .charicter2 {
-    position: absolute;
-    background-image: url("../img/charicter/pg5_fenny.png");
-    width: 100vw;
-    height: 100vh;
-    top: 18vw;
-    left: 35vw;
-    background-repeat: no-repeat;
-    background-size: 18vw;
-    transform: rotate(-2deg);
-    opacity: 1;
-
-    &:hover {
-      opacity: 0;
+  
+    .charicter1-1 {
+      position: absolute;
+      background-image: url("../img/charicter/pg5_maverick2.png");
+      width: 100vw;
+      height: 100vh;
+      top: 21vw;
+      left: 15vw;
+      background-repeat: no-repeat;
+      background-size: 18vw;
+      transform: rotate(3deg);
     }
-  }
-
-  .charicter2-1 {
-    position: absolute;
-    background-image: url("../img/charicter/pg5_fenny2.png");
-    width: 100vw;
-    height: 100vh;
-    top: 18vw;
-    left: 35vw;
-    background-repeat: no-repeat;
-    background-size: 18vw;
-    transform: rotate(-2deg);
-    opacity: 1;
-  }
-
-  .charicter3 {
-    position: absolute;
-    background-image: url("../img/charicter/pg5_rooster2.png");
-    width: 100vw;
-    height: 100vh;
-    top: 20vw;
-    left: 55vw;
-    background-repeat: no-repeat;
-    background-size: 18vw;
-    transform: rotate(3deg);
-    opacity: 1;
-
-    &:hover {
-      opacity: 0;
+  
+    .charicter2 {
+      position: absolute;
+      background-image: url("../img/charicter/pg5_fenny.png");
+      width: 100vw;
+      height: 100vh;
+      top: 18vw;
+      left: 35vw;
+      background-repeat: no-repeat;
+      background-size: 18vw;
+      transform: rotate(-2deg);
+      opacity: 1;
+  
+      &:hover {
+        opacity: 0;
+      }
     }
-  }
-
-  .charicter3-1 {
-    position: absolute;
-    background-image: url("../img/charicter/pg5_rooster.png");
-    width: 100vw;
-    height: 100vh;
-    top: 20vw;
-    left: 55vw;
-    background-repeat: no-repeat;
-    background-size: 18vw;
-    transform: rotate(3deg);
-    opacity: 1;
-  }
-
-  .charicter4 {
-    position: absolute;
-    background-image: url("../img/charicter/pg5_phoenix.png");
-    width: 100vw;
-    height: 100vh;
-    top: 18vw;
-    left: 75vw;
-    background-repeat: no-repeat;
-    background-size: 18vw;
-    transform: rotate(-1deg);
-    opacity: 1;
-
-    &:hover {
-      opacity: 0;
+  
+    .charicter2-1 {
+      position: absolute;
+      background-image: url("../img/charicter/pg5_fenny2.png");
+      width: 100vw;
+      height: 100vh;
+      top: 18vw;
+      left: 35vw;
+      background-repeat: no-repeat;
+      background-size: 18vw;
+      transform: rotate(-2deg);
+      opacity: 1;
     }
-  }
-
-  .charicter4-1 {
-    position: absolute;
-    background-image: url("../img/charicter/pg5_phoenix2.png");
-    width: 100vw;
-    height: 100vh;
-    top: 18vw;
-    left: 75vw;
-    background-repeat: no-repeat;
-    background-size: 18vw;
-    transform: rotate(-1deg);
-  }
-
-  .charicter5 {
-    position: absolute;
-    background-image: url("../img/charicter/pg5_Hang-Man.png");
-    width: 100vw;
-    height: 100vh;
-    top: 16vw;
-    left: 95vw;
-    background-repeat: no-repeat;
-    background-size: 18vw;
-    transform: rotate(-2deg);
-    opacity: 1;
-
-    &:hover {
-      opacity: 0;
+  
+    .charicter3 {
+      position: absolute;
+      background-image: url("../img/charicter/pg5_rooster2.png");
+      width: 100vw;
+      height: 100vh;
+      top: 20vw;
+      left: 55vw;
+      background-repeat: no-repeat;
+      background-size: 18vw;
+      transform: rotate(3deg);
+      opacity: 1;
+  
+      &:hover {
+        opacity: 0;
+      }
     }
-  }
-
-  .charicter5-1 {
-    position: absolute;
-    background-image: url("../img/charicter/pg5_Hang-Man2.png");
-    width: 100vw;
-    height: 100vh;
-    top: 16vw;
-    left: 95vw;
-    background-repeat: no-repeat;
-    background-size: 18vw;
-    transform: rotate(-2deg);
-  }
-
-  .charicter6 {
-    position: absolute;
-    background-image: url("../img/charicter/pg5_cyclone.png");
-    width: 100vw;
-    height: 100vh;
-    top: 20vw;
-    left: 115vw;
-    background-repeat: no-repeat;
-    background-size: 18vw;
-    transform: rotate(3deg);
-    opacity: 1;
-
-    &:hover {
-      opacity: 0;
+  
+    .charicter3-1 {
+      position: absolute;
+      background-image: url("../img/charicter/pg5_rooster.png");
+      width: 100vw;
+      height: 100vh;
+      top: 20vw;
+      left: 55vw;
+      background-repeat: no-repeat;
+      background-size: 18vw;
+      transform: rotate(3deg);
+      opacity: 1;
     }
-  }
-
-  .charicter6-1 {
-    position: absolute;
-    background-image: url("../img/charicter/pg5_cyclone2.png");
-    width: 100vw;
-    height: 100vh;
-    top: 20vw;
-    left: 115vw;
-    background-repeat: no-repeat;
-    background-size: 18vw;
-    transform: rotate(3deg);
-  }
-
-  .charicter7 {
-    position: absolute;
-    background-image: url("../img/charicter/pg5_iceman.png");
-    width: 100vw;
-    height: 100vh;
-    top: 16vw;
-    left: 135vw;
-    background-repeat: no-repeat;
-    background-size: 18vw;
-    transform: rotate(-2deg);
-    opacity: 1;
-
-    &:hover {
-      opacity: 0;
+  
+    .charicter4 {
+      position: absolute;
+      background-image: url("../img/charicter/pg5_phoenix.png");
+      width: 100vw;
+      height: 100vh;
+      top: 18vw;
+      left: 75vw;
+      background-repeat: no-repeat;
+      background-size: 18vw;
+      transform: rotate(-1deg);
+      opacity: 1;
+  
+      &:hover {
+        opacity: 0;
+      }
     }
-  }
+  
+    .charicter4-1 {
+      position: absolute;
+      background-image: url("../img/charicter/pg5_phoenix2.png");
+      width: 100vw;
+      height: 100vh;
+      top: 18vw;
+      left: 75vw;
+      background-repeat: no-repeat;
+      background-size: 18vw;
+      transform: rotate(-1deg);
+    }
+  
+    .charicter5 {
+      position: absolute;
+      background-image: url("../img/charicter/pg5_Hang-Man.png");
+      width: 100vw;
+      height: 100vh;
+      top: 16vw;
+      left: 95vw;
+      background-repeat: no-repeat;
+      background-size: 18vw;
+      transform: rotate(-2deg);
+      opacity: 1;
+  
+      &:hover {
+        opacity: 0;
+      }
+    }
+  
+    .charicter5-1 {
+      position: absolute;
+      background-image: url("../img/charicter/pg5_Hang-Man2.png");
+      width: 100vw;
+      height: 100vh;
+      top: 16vw;
+      left: 95vw;
+      background-repeat: no-repeat;
+      background-size: 18vw;
+      transform: rotate(-2deg);
+    }
+  
+    .charicter6 {
+      position: absolute;
+      background-image: url("../img/charicter/pg5_cyclone.png");
+      width: 100vw;
+      height: 100vh;
+      top: 20vw;
+      left: 115vw;
+      background-repeat: no-repeat;
+      background-size: 18vw;
+      transform: rotate(3deg);
+      opacity: 1;
+  
+      &:hover {
+        opacity: 0;
+      }
+    }
+  
+    .charicter6-1 {
+      position: absolute;
+      background-image: url("../img/charicter/pg5_cyclone2.png");
+      width: 100vw;
+      height: 100vh;
+      top: 20vw;
+      left: 115vw;
+      background-repeat: no-repeat;
+      background-size: 18vw;
+      transform: rotate(3deg);
+    }
+  
+    .charicter7 {
+      position: absolute;
+      background-image: url("../img/charicter/pg5_iceman.png");
+      width: 100vw;
+      height: 100vh;
+      top: 16vw;
+      left: 135vw;
+      background-repeat: no-repeat;
+      background-size: 18vw;
+      transform: rotate(-2deg);
+      opacity: 1;
+  
+      &:hover {
+        opacity: 0;
+      }
+    }
+  
+    .charicter7-1 {
+      position: absolute;
+      background-image: url("../img/charicter/pg5_iceman2.png");
+      width: 100vw;
+      height: 100vh;
+      top: 16vw;
+      left: 135vw;
+      background-repeat: no-repeat;
+      background-size: 18vw;
+      transform: rotate(-2deg);
+    }
 
-  .charicter7-1 {
-    position: absolute;
-    background-image: url("../img/charicter/pg5_iceman2.png");
-    width: 100vw;
-    height: 100vh;
-    top: 16vw;
-    left: 135vw;
-    background-repeat: no-repeat;
-    background-size: 18vw;
-    transform: rotate(-2deg);
   }
+  
 
   // .line0 {
   //   position: absolute;
@@ -461,30 +485,32 @@ header {
   // }
 
   .line1 {
-    position: absolute;
+    position: fixed;
     background-image: url("../img/charicter/1.png");
     width: 100vw;
     height: 100vh;
     left: 0vw;
+    top: 0;
     background-repeat: no-repeat;
     background-size: 60vw;
     opacity: 0.4;
   }
 
-  .line2 {
-    position: absolute;
-    background-image: url("../img/charicter/2.png");
-    width: 100vw;
-    height: 100vh;
-    top: 20vh;
-    left: 0vw;
-    background-repeat: no-repeat;
-    background-size: 80vw;
-    opacity: 0.4;
-  }
+  // .line2 {
+  //   position: fixed;
+  //   background-image: url("../img/charicter/2.png");
+  //   width: 100vw;
+  //   height: 88vh;
+  //   bottom: 0;
+  //   left: 0vw;
+  //   top: 0;
+  //   background-repeat: no-repeat;
+  //   background-size: 80vw;
+  //   opacity: 0.4;
+  // }
 
   .line3 {
-    position: absolute;
+    position: fixed;
     background-image: url("../img/charicter/3.png");
     width: 100vw;
     height: 100vh;
@@ -496,7 +522,7 @@ header {
   }
 
   .line4 {
-    position: absolute;
+    position: fixed;
     background-image: url("../img/charicter/4.png");
     width: 100vw;
     height: 100vh;

@@ -109,20 +109,30 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
 .ye01 {
   position: absolute;
   width: 100vw;
-  height: 1000px;
+  height: 5000px;
+  background-size: 100vw;
   top: 0px;
   left: 0;
-  background-color: red;
-  background-image: url("../img/pg4_main_bg.png");
+  background-color: #1b140b;
+}
+.ye01 article {
+  position: fixed;
+  background-image: url("../img/main_page_4.jpg.jfif");
   background-repeat: no-repeat;
+  width: 100vw;
+  height: 1000px;
+  background-size: 100vw;
+  opacity: 0.3;
+  top: 0;
 }
 .ye01 article .main {
   position: absolute;
   background-image: url("../img/pg4_main_tom.png");
   width: 100vw;
-  height: 107vh;
+  height: 103vh;
   left: 0vw;
   background-repeat: no-repeat;
+  background-size: 100vw;
   z-index: 3;
 }
 .ye01 article .text1 {
@@ -133,6 +143,7 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   height: 100vh;
   top: 0;
   background-repeat: no-repeat;
+  background-size: 90vw;
 }
 .ye01 article .text2 {
   position: absolute;
@@ -141,6 +152,7 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   height: 150vh;
   top: 0vw;
   background-repeat: no-repeat;
+  background-size: 90vw;
 }
 .ye01 article .F-14_1 {
   position: absolute;
@@ -156,8 +168,9 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   background-image: url("../img/f-14_3.png");
   width: 100vw;
   height: 100vh;
-  top: 5vw;
+  top: 0vw;
   background-repeat: no-repeat;
+  background-size: 100vw;
 }
 .ye01 article .F-14_3 {
   position: absolute;
@@ -166,6 +179,7 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   height: 120vh;
   bottom: 5vw;
   background-repeat: no-repeat;
+  background-size: 90vw;
 }
 .ye01 article .F-14_4 {
   position: absolute;
@@ -174,6 +188,7 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   height: 100vh;
   top: 0vw;
   background-repeat: no-repeat;
+  background-size: 100vw;
 }
 .ye01 article .F-14_5 {
   position: absolute;
@@ -182,36 +197,44 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   height: 100vh;
   top: 0vw;
   background-repeat: no-repeat;
+  background-size: 100vw;
 }
 
 .ye02 {
   position: absolute;
   width: 100vw;
-  height: 1000px;
+  height: 4000px;
   top: 6000px;
   left: 0;
   background-color: #1b140b;
 }
 .ye02 .text1 {
-  position: absolute;
+  position: fixed;
   font-family: "Bebas Neue";
-  top: 5vw;
+  top: 2vw;
   left: 5vw;
   font-size: 90px;
   color: #fff;
 }
 .ye02 .text2 {
-  position: absolute;
+  position: fixed;
   width: 100vw;
   height: 500px;
-  top: 6vw;
+  top: 3vw;
   right: 5vw;
   text-align: end;
   font-size: 15px/2;
   font-family: "Noto Sans KR";
   color: #fff;
 }
-.ye02 .charicter1 {
+.ye02 .charicter {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  right: 5%;
+}
+.ye02 .charicter .charicter1 {
   position: absolute;
   background-image: url("../img/charicter/pg5_maverick.png");
   width: 100vw;
@@ -223,10 +246,10 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   transform: rotate(3deg);
   opacity: 1;
 }
-.ye02 .charicter1:hover {
+.ye02 .charicter .charicter1:hover {
   opacity: 0;
 }
-.ye02 .charicter1-1 {
+.ye02 .charicter .charicter1-1 {
   position: absolute;
   background-image: url("../img/charicter/pg5_maverick2.png");
   width: 100vw;
@@ -237,7 +260,7 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   background-size: 18vw;
   transform: rotate(3deg);
 }
-.ye02 .charicter2 {
+.ye02 .charicter .charicter2 {
   position: absolute;
   background-image: url("../img/charicter/pg5_fenny.png");
   width: 100vw;
@@ -249,10 +272,10 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   transform: rotate(-2deg);
   opacity: 1;
 }
-.ye02 .charicter2:hover {
+.ye02 .charicter .charicter2:hover {
   opacity: 0;
 }
-.ye02 .charicter2-1 {
+.ye02 .charicter .charicter2-1 {
   position: absolute;
   background-image: url("../img/charicter/pg5_fenny2.png");
   width: 100vw;
@@ -264,7 +287,7 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   transform: rotate(-2deg);
   opacity: 1;
 }
-.ye02 .charicter3 {
+.ye02 .charicter .charicter3 {
   position: absolute;
   background-image: url("../img/charicter/pg5_rooster2.png");
   width: 100vw;
@@ -276,10 +299,10 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   transform: rotate(3deg);
   opacity: 1;
 }
-.ye02 .charicter3:hover {
+.ye02 .charicter .charicter3:hover {
   opacity: 0;
 }
-.ye02 .charicter3-1 {
+.ye02 .charicter .charicter3-1 {
   position: absolute;
   background-image: url("../img/charicter/pg5_rooster.png");
   width: 100vw;
@@ -291,7 +314,7 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   transform: rotate(3deg);
   opacity: 1;
 }
-.ye02 .charicter4 {
+.ye02 .charicter .charicter4 {
   position: absolute;
   background-image: url("../img/charicter/pg5_phoenix.png");
   width: 100vw;
@@ -303,10 +326,10 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   transform: rotate(-1deg);
   opacity: 1;
 }
-.ye02 .charicter4:hover {
+.ye02 .charicter .charicter4:hover {
   opacity: 0;
 }
-.ye02 .charicter4-1 {
+.ye02 .charicter .charicter4-1 {
   position: absolute;
   background-image: url("../img/charicter/pg5_phoenix2.png");
   width: 100vw;
@@ -317,7 +340,7 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   background-size: 18vw;
   transform: rotate(-1deg);
 }
-.ye02 .charicter5 {
+.ye02 .charicter .charicter5 {
   position: absolute;
   background-image: url("../img/charicter/pg5_Hang-Man.png");
   width: 100vw;
@@ -329,10 +352,10 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   transform: rotate(-2deg);
   opacity: 1;
 }
-.ye02 .charicter5:hover {
+.ye02 .charicter .charicter5:hover {
   opacity: 0;
 }
-.ye02 .charicter5-1 {
+.ye02 .charicter .charicter5-1 {
   position: absolute;
   background-image: url("../img/charicter/pg5_Hang-Man2.png");
   width: 100vw;
@@ -343,7 +366,7 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   background-size: 18vw;
   transform: rotate(-2deg);
 }
-.ye02 .charicter6 {
+.ye02 .charicter .charicter6 {
   position: absolute;
   background-image: url("../img/charicter/pg5_cyclone.png");
   width: 100vw;
@@ -355,10 +378,10 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   transform: rotate(3deg);
   opacity: 1;
 }
-.ye02 .charicter6:hover {
+.ye02 .charicter .charicter6:hover {
   opacity: 0;
 }
-.ye02 .charicter6-1 {
+.ye02 .charicter .charicter6-1 {
   position: absolute;
   background-image: url("../img/charicter/pg5_cyclone2.png");
   width: 100vw;
@@ -369,7 +392,7 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   background-size: 18vw;
   transform: rotate(3deg);
 }
-.ye02 .charicter7 {
+.ye02 .charicter .charicter7 {
   position: absolute;
   background-image: url("../img/charicter/pg5_iceman.png");
   width: 100vw;
@@ -381,10 +404,10 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   transform: rotate(-2deg);
   opacity: 1;
 }
-.ye02 .charicter7:hover {
+.ye02 .charicter .charicter7:hover {
   opacity: 0;
 }
-.ye02 .charicter7-1 {
+.ye02 .charicter .charicter7-1 {
   position: absolute;
   background-image: url("../img/charicter/pg5_iceman2.png");
   width: 100vw;
@@ -396,28 +419,18 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   transform: rotate(-2deg);
 }
 .ye02 .line1 {
-  position: absolute;
+  position: fixed;
   background-image: url("../img/charicter/1.png");
   width: 100vw;
   height: 100vh;
   left: 0vw;
+  top: 0;
   background-repeat: no-repeat;
   background-size: 60vw;
   opacity: 0.4;
 }
-.ye02 .line2 {
-  position: absolute;
-  background-image: url("../img/charicter/2.png");
-  width: 100vw;
-  height: 100vh;
-  top: 20vh;
-  left: 0vw;
-  background-repeat: no-repeat;
-  background-size: 80vw;
-  opacity: 0.4;
-}
 .ye02 .line3 {
-  position: absolute;
+  position: fixed;
   background-image: url("../img/charicter/3.png");
   width: 100vw;
   height: 100vh;
@@ -428,7 +441,7 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   opacity: 0.4;
 }
 .ye02 .line4 {
-  position: absolute;
+  position: fixed;
   background-image: url("../img/charicter/4.png");
   width: 100vw;
   height: 100vh;
