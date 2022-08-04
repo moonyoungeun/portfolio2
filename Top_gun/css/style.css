@@ -463,22 +463,22 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   left: 0;
 }
 .ye03 .footer .footer_main {
+  position: absolute;
   width: 100vw;
   height: 100vh;
-  top: 0;
-  left: 0;
   background-size: 100vw;
   background-repeat: no-repeat;
+  opacity: 1;
 }
 .ye03 .footer .footer_main .footer1 {
   position: fixed;
   background-image: url("../img/footer/크래딧.png");
   width: 100vw;
   height: 100vh;
-  background-repeat: no-repeat;
-  top: 0;
-  left: 0;
+  top: 5vh;
+  left: 44vw;
   background-size: 10vw;
+  background-repeat: no-repeat;
 }
 .ye03 .footer .footer_main .footer2 {
   position: fixed;
