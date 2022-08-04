@@ -117,7 +117,7 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
 }
 .ye01 article {
   position: fixed;
-  background-image: url("../img/main_page_4.jpg.jfif");
+  background-image: url("../img/pg4_main_bg.png");
   background-repeat: no-repeat;
   width: 100vw;
   height: 1000px;
@@ -190,20 +190,11 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   background-repeat: no-repeat;
   background-size: 100vw;
 }
-.ye01 article .F-14_5 {
-  position: absolute;
-  background-image: url("../img/f-14_6.png");
-  width: 100vw;
-  height: 100vh;
-  top: 0vw;
-  background-repeat: no-repeat;
-  background-size: 100vw;
-}
 
 .ye02 {
   position: absolute;
   width: 100vw;
-  height: 4000px;
+  height: 5000px;
   top: 6000px;
   left: 0;
   background-color: #1b140b;
@@ -213,7 +204,7 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   font-family: "Bebas Neue";
   top: 2vw;
   left: 5vw;
-  font-size: 90px;
+  font-size: clamp(40px, 5vw, 6vw);
   color: #fff;
 }
 .ye02 .text2 {
@@ -223,7 +214,7 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   top: 3vw;
   right: 5vw;
   text-align: end;
-  font-size: 15px/2;
+  font-size: clamp(2px, 1vw, 1vw);
   font-family: "Noto Sans KR";
   color: #fff;
 }

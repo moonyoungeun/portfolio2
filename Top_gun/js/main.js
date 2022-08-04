@@ -16,12 +16,32 @@ gnbMenu.addEventListener("click", function(){
   }
 })
 
+
+
+const article01 = document.querySelector(".color_block");
+const article02 = document.querySelector(".article02");
+
+
 var s = skrollr.init();
 window.addEventListener("scroll", function(){
   console.log(scrollY);
-  // if(scrollY >= 1000){
-  //   $('.illust').css('display', 'none');
-  // }else if(scrollY < 1000){
-  //   $('.illust').css('display', 'block');
-  // }
+  if(scrollY >= 0 && scrollY <= 10000){
+    article01.classList.remove("position_relative");
+    article01.classList.add("position_fixed");
+    article01.style.width = "2000vw";
+  }else{
+    article01.classList.remove("position_fixed");
+    article01.classList.add("position_relative");
+    article01.style.width = "100vw";
+  }
+  if(scrollY >= 10000 && scrollY <= 20000){
+    article02.classList.remove("position_relative");
+    article02.classList.add("position_fixed");
+  }else{
+    article02.classList.remove("position_fixed");
+    article02.classList.add("position_relative");
+  }
+ 
 })
+
+
