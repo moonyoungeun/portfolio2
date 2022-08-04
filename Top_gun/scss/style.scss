@@ -515,7 +515,7 @@ header {
     position: fixed;
     background-image: url("../img/charicter/3.png");
     width: 100vw;
-    height: 100vh;
+    height: 75vh;
     top: 8vh;
     left: 0vw;
     background-repeat: no-repeat;
@@ -536,12 +536,93 @@ header {
   }
 }
 .ye03{
-  // position: absolute;
-  // width: 100vw;
-  // height: 1000px;
-  // top: 2000px;
-  // left: 0;
-  // background-color: orange;
-  // opacity: 0.5;
-  // border: 1px solid black;
+  position: absolute;
+  width: 100vw;
+  height: 5000px;
+  top: 11000px;
+  left: 0;
+  background-color: #1b140b;
+  
+
+  .footer{
+    position: fixed;
+    background-image: url("../img/main_page_4.jpg.jfif");
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: 100vw;
+    top: 0;
+    left: 0;
+  
+  .footer_main{
+    
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    
+
+      .footer1{
+        position: fixed;
+        background-image: url("../img/footer/크래딧.png");
+        width: 100vw;
+        height: 100vh;
+        background-repeat: no-repeat;
+        top: 0;
+        left: 0;
+        background-size: 10vw;
+        
+        
+      }
+
+      .footer2{
+        position: fixed;
+        background-image: url("../img/footer/디자인.png");
+        width: 100vw;
+        height: 100vh;
+        background-repeat: no-repeat;
+        top: 40vh;
+        left: 45vw;
+        background-size: 10vw;
+        
+      }
+
+      .footer3{
+        position: fixed;
+        background-image: url("../img/footer/원작.png");
+        width: 100vw;
+        height: 100vh;
+        background-repeat: no-repeat;
+        top: 60vh;
+        left: 44vw;
+        background-size: 12vw;
+        
+      }
+
+      .footer4{
+        position: fixed;
+        background-image: url("../img/footer/기획.png");
+        width: 100vw;
+        height: 100vh;
+        background-repeat: no-repeat;
+        top: 15vh;
+        left: 45vw;
+        background-size: 10vw;
+        
+      }
+      .footer5{
+        position: fixed;
+        background-image: url("../img/logo/logo_white.png");
+        width: 100vw;
+        height: 100vh;
+        background-repeat: no-repeat;
+        top: 90vh;
+        left: 45vw;
+        background-size: 10vw;
+        opacity: 0.2;
+      }
+    }
+  }
 }

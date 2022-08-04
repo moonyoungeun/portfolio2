@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* RESET */
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Kaushan+Script&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
 * {
@@ -424,7 +425,7 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   position: fixed;
   background-image: url("../img/charicter/3.png");
   width: 100vw;
-  height: 100vh;
+  height: 75vh;
   top: 8vh;
   left: 0vw;
   background-repeat: no-repeat;
@@ -441,6 +442,84 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   background-repeat: no-repeat;
   background-size: 100vw;
   opacity: 0.4;
+}
+
+.ye03 {
+  position: absolute;
+  width: 100vw;
+  height: 5000px;
+  top: 11000px;
+  left: 0;
+  background-color: #1b140b;
+}
+.ye03 .footer {
+  position: fixed;
+  background-image: url("../img/main_page_4.jpg.jfif");
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  background-size: 100vw;
+  top: 0;
+  left: 0;
+}
+.ye03 .footer .footer_main {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+}
+.ye03 .footer .footer_main .footer1 {
+  position: fixed;
+  background-image: url("../img/footer/크래딧.png");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  background-size: 10vw;
+}
+.ye03 .footer .footer_main .footer2 {
+  position: fixed;
+  background-image: url("../img/footer/디자인.png");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  top: 40vh;
+  left: 45vw;
+  background-size: 10vw;
+}
+.ye03 .footer .footer_main .footer3 {
+  position: fixed;
+  background-image: url("../img/footer/원작.png");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  top: 60vh;
+  left: 44vw;
+  background-size: 12vw;
+}
+.ye03 .footer .footer_main .footer4 {
+  position: fixed;
+  background-image: url("../img/footer/기획.png");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  top: 15vh;
+  left: 45vw;
+  background-size: 10vw;
+}
+.ye03 .footer .footer_main .footer5 {
+  position: fixed;
+  background-image: url("../img/logo/logo_white.png");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  top: 90vh;
+  left: 45vw;
+  background-size: 10vw;
+  opacity: 0.2;
 }
 
 /*# sourceMappingURL=style.css.map */
