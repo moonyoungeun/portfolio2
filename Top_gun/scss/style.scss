@@ -14,7 +14,7 @@
 body {
   width: 100vw;
   height: 30000px;
-  background-color: #ff0000;
+  background-color: #1b140b;
   // overflow: hidden;
 }
 
@@ -124,6 +124,8 @@ header {
 //header
 
 //영은
+
+
 .ye01 {
   position: absolute;
   width: 100vw;
@@ -137,6 +139,7 @@ header {
   // background-size: cover;
 
   article {
+ 
     .main {
       position: absolute;
       background-image: url("../img/pg4_main_tom.png");
@@ -170,6 +173,10 @@ header {
       background-image: url("../img/f-14_2.png");
       width: 150vw;
       height: 200vh;
+      background-size: 80vw;
+      top: 1vh;
+
+      
 
       background-repeat: no-repeat;
     }
@@ -212,17 +219,17 @@ header {
   position: absolute;
   width: 100vw;
   height: 1000px;
-  top: 5000px;
+  top: 6000px;
   left: 0;
   background-color: #1b140b;
 
   .text1 {
     position: absolute;
-    font-family: "Kaushan Script";
+    font-family: "Bebas Neue";
     //Bebas Neue//
     top: 5vw;
     left: 5vw;
-    font-size: 80px;
+    font-size: 90px;
     color: #fff;
   }
 
@@ -233,7 +240,7 @@ header {
     top: 6vw;
     right: 5vw;
     text-align: end;
-    font-size: 10px/1;
+    font-size: 15px/2;
     font-family: "Noto Sans KR";
     color: #fff;
   }

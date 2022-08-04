@@ -22,7 +22,7 @@ a {
 body {
   width: 100vw;
   height: 30000px;
-  background-color: #ff0000;
+  background-color: #1b140b;
 }
 
 header {
@@ -147,6 +147,8 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   background-image: url("../img/f-14_2.png");
   width: 150vw;
   height: 200vh;
+  background-size: 80vw;
+  top: 1vh;
   background-repeat: no-repeat;
 }
 .ye01 article .F-14_2 {
@@ -186,16 +188,16 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   position: absolute;
   width: 100vw;
   height: 1000px;
-  top: 5000px;
+  top: 6000px;
   left: 0;
   background-color: #1b140b;
 }
 .ye02 .text1 {
   position: absolute;
-  font-family: "Kaushan Script";
+  font-family: "Bebas Neue";
   top: 5vw;
   left: 5vw;
-  font-size: 80px;
+  font-size: 90px;
   color: #fff;
 }
 .ye02 .text2 {
@@ -205,7 +207,7 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   top: 6vw;
   right: 5vw;
   text-align: end;
-  font-size: 10px/1;
+  font-size: 15px/2;
   font-family: "Noto Sans KR";
   color: #fff;
 }
