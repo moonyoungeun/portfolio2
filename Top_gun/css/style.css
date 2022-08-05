@@ -20,6 +20,14 @@ a {
   display: flex !important;
 }
 
+.position_relative {
+  position: relative;
+}
+
+.position_fixed {
+  position: fixed;
+}
+
 body {
   width: 100vw;
   height: 30000px;
@@ -30,6 +38,7 @@ header {
   position: fixed;
   width: 100vw;
   height: 100vh;
+  visibility: hidden;
 }
 header .header_gnb {
   display: flex;
@@ -121,7 +130,7 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   background-image: url("../img/pg4_main_bg.png");
   background-repeat: no-repeat;
   width: 100vw;
-  height: 1000px;
+  height: 1300px;
   background-size: 100vw;
   opacity: 0.3;
   top: 0;
@@ -461,17 +470,10 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   background-size: 100vw;
   top: 0;
   left: 0;
+  opacity: 0;
 }
-.ye03 .footer .footer_main {
+.ye03 .footer .footer1 {
   position: absolute;
-  width: 100vw;
-  height: 100vh;
-  background-size: 100vw;
-  background-repeat: no-repeat;
-  opacity: 1;
-}
-.ye03 .footer .footer_main .footer1 {
-  position: fixed;
   background-image: url("../img/footer/크래딧.png");
   width: 100vw;
   height: 100vh;
@@ -480,7 +482,7 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   background-size: 10vw;
   background-repeat: no-repeat;
 }
-.ye03 .footer .footer_main .footer2 {
+.ye03 .footer .footer2 {
   position: fixed;
   background-image: url("../img/footer/디자인.png");
   width: 100vw;
@@ -490,7 +492,7 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   left: 45vw;
   background-size: 10vw;
 }
-.ye03 .footer .footer_main .footer3 {
+.ye03 .footer .footer3 {
   position: fixed;
   background-image: url("../img/footer/원작.png");
   width: 100vw;
@@ -500,7 +502,7 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   left: 44vw;
   background-size: 12vw;
 }
-.ye03 .footer .footer_main .footer4 {
+.ye03 .footer .footer4 {
   position: fixed;
   background-image: url("../img/footer/기획.png");
   width: 100vw;
@@ -510,7 +512,7 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   left: 45vw;
   background-size: 10vw;
 }
-.ye03 .footer .footer_main .footer5 {
+.ye03 .footer .footer5 {
   position: fixed;
   background-image: url("../img/logo/logo_white.png");
   width: 100vw;

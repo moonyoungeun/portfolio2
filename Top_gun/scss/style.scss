@@ -11,6 +11,14 @@
   display: flex !important;
 }
 
+.position_relative {
+  position: relative;
+}
+
+.position_fixed {
+  position: fixed;
+}
+
 body {
   width: 100vw;
   height: 30000px;
@@ -22,6 +30,7 @@ header {
   position: fixed;
   width: 100vw;
   height: 100vh;
+  visibility: hidden;
 
   .header_gnb {
     display: flex;
@@ -125,7 +134,6 @@ header {
 
 //영은
 
-
 .ye01 {
   position: absolute;
   width: 100vw;
@@ -135,18 +143,17 @@ header {
   left: 0;
   background-color: #1b140b;
 
-  
   // background-size: cover;
 
   article {
     position: fixed;
     background-image: url("../img/pg4_main_bg.png");
-  background-repeat: no-repeat;
-  width: 100vw;
-  height: 1000px;
-  background-size: 100vw;
-  opacity: 0.3;
-  top: 0;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 1300px;
+    background-size: 100vw;
+    opacity: 0.3;
+    top: 0;
     .main {
       position: absolute;
       background-image: url("../img/pg4_main_tom.png");
@@ -186,10 +193,6 @@ header {
       background-size: 80vw;
       top: 1vh;
       background-repeat: no-repeat;
-
-      
-
-      
     }
     .F-14_2 {
       position: absolute;
@@ -244,7 +247,7 @@ header {
     //Bebas Neue//
     top: 2vw;
     left: 5vw;
-    
+
     font-size: clamp(40px, 5vw, 6vw);
     color: #fff;
   }
@@ -256,18 +259,18 @@ header {
     top: 3vw;
     right: 5vw;
     text-align: end;
-    
+
     font-size: clamp(2px, 1vw, 1vw);
     font-family: "Noto Sans KR";
     color: #fff;
   }
-  .charicter{
+  .charicter {
     position: fixed;
     width: 100vw;
     height: 100vh;
     top: 0;
     right: 5%;
-  
+
     .charicter1 {
       position: absolute;
       background-image: url("../img/charicter/pg5_maverick.png");
@@ -279,12 +282,12 @@ header {
       background-size: 18vw;
       transform: rotate(3deg);
       opacity: 1;
-  
+
       &:hover {
         opacity: 0;
       }
     }
-  
+
     .charicter1-1 {
       position: absolute;
       background-image: url("../img/charicter/pg5_maverick2.png");
@@ -296,7 +299,7 @@ header {
       background-size: 18vw;
       transform: rotate(3deg);
     }
-  
+
     .charicter2 {
       position: absolute;
       background-image: url("../img/charicter/pg5_fenny.png");
@@ -308,12 +311,12 @@ header {
       background-size: 18vw;
       transform: rotate(-2deg);
       opacity: 1;
-  
+
       &:hover {
         opacity: 0;
       }
     }
-  
+
     .charicter2-1 {
       position: absolute;
       background-image: url("../img/charicter/pg5_fenny2.png");
@@ -326,7 +329,7 @@ header {
       transform: rotate(-2deg);
       opacity: 1;
     }
-  
+
     .charicter3 {
       position: absolute;
       background-image: url("../img/charicter/pg5_rooster2.png");
@@ -338,12 +341,12 @@ header {
       background-size: 18vw;
       transform: rotate(3deg);
       opacity: 1;
-  
+
       &:hover {
         opacity: 0;
       }
     }
-  
+
     .charicter3-1 {
       position: absolute;
       background-image: url("../img/charicter/pg5_rooster.png");
@@ -356,7 +359,7 @@ header {
       transform: rotate(3deg);
       opacity: 1;
     }
-  
+
     .charicter4 {
       position: absolute;
       background-image: url("../img/charicter/pg5_phoenix.png");
@@ -368,12 +371,12 @@ header {
       background-size: 18vw;
       transform: rotate(-1deg);
       opacity: 1;
-  
+
       &:hover {
         opacity: 0;
       }
     }
-  
+
     .charicter4-1 {
       position: absolute;
       background-image: url("../img/charicter/pg5_phoenix2.png");
@@ -385,7 +388,7 @@ header {
       background-size: 18vw;
       transform: rotate(-1deg);
     }
-  
+
     .charicter5 {
       position: absolute;
       background-image: url("../img/charicter/pg5_Hang-Man.png");
@@ -397,12 +400,12 @@ header {
       background-size: 18vw;
       transform: rotate(-2deg);
       opacity: 1;
-  
+
       &:hover {
         opacity: 0;
       }
     }
-  
+
     .charicter5-1 {
       position: absolute;
       background-image: url("../img/charicter/pg5_Hang-Man2.png");
@@ -414,7 +417,7 @@ header {
       background-size: 18vw;
       transform: rotate(-2deg);
     }
-  
+
     .charicter6 {
       position: absolute;
       background-image: url("../img/charicter/pg5_cyclone.png");
@@ -426,12 +429,12 @@ header {
       background-size: 18vw;
       transform: rotate(3deg);
       opacity: 1;
-  
+
       &:hover {
         opacity: 0;
       }
     }
-  
+
     .charicter6-1 {
       position: absolute;
       background-image: url("../img/charicter/pg5_cyclone2.png");
@@ -443,7 +446,7 @@ header {
       background-size: 18vw;
       transform: rotate(3deg);
     }
-  
+
     .charicter7 {
       position: absolute;
       background-image: url("../img/charicter/pg5_iceman.png");
@@ -455,12 +458,12 @@ header {
       background-size: 18vw;
       transform: rotate(-2deg);
       opacity: 1;
-  
+
       &:hover {
         opacity: 0;
       }
     }
-  
+
     .charicter7-1 {
       position: absolute;
       background-image: url("../img/charicter/pg5_iceman2.png");
@@ -472,9 +475,7 @@ header {
       background-size: 18vw;
       transform: rotate(-2deg);
     }
-
   }
-  
 
   // .line0 {
   //   position: absolute;
@@ -535,16 +536,15 @@ header {
     opacity: 0.4;
   }
 }
-.ye03{
+.ye03 {
   position: absolute;
   width: 100vw;
-  height: 5000px;
+  height: 10000px;
   top: 11000px;
   left: 0;
   background-color: #1b140b;
-  
 
-  .footer{
+  .footer {
     position: fixed;
     background-image: url("../img/main_page_4.jpg.jfif");
     background-repeat: no-repeat;
@@ -553,74 +553,69 @@ header {
     background-size: 100vw;
     top: 0;
     left: 0;
-  
-    .footer_main{
+    opacity: 0;
+
+    // .footer_main {
+    //   position: absolute;
+    //   width: 100vw;
+    //   height: 100vh;
+    //   background-size: 100vw;
+    //   background-repeat: no-repeat;
+    //   opacity: 1;
+
+    .footer1 {
       position: absolute;
+      background-image: url("../img/footer/크래딧.png");
       width: 100vw;
       height: 100vh;
-      background-size: 100vw;
+      top: 5vh;
+      left: 44vw;
+      background-size: 10vw;
       background-repeat: no-repeat;
-      opacity: 1;
-    
+    }
 
-      .footer1{
-        position: fixed;
-        background-image: url("../img/footer/크래딧.png");
-        width: 100vw;
-        height: 100vh;
-        top: 5vh;
-        left: 44vw;
-        background-size: 10vw;
+    .footer2 {
+      position: fixed;
+      background-image: url("../img/footer/디자인.png");
+      width: 100vw;
+      height: 100vh;
       background-repeat: no-repeat;
-        
-      }
+      top: 40vh;
+      left: 45vw;
+      background-size: 10vw;
+    }
 
-      .footer2{
-        position: fixed;
-        background-image: url("../img/footer/디자인.png");
-        width: 100vw;
-        height: 100vh;
-        background-repeat: no-repeat;
-        top: 40vh;
-        left: 45vw;
-        background-size: 10vw;
-        
-      }
+    .footer3 {
+      position: fixed;
+      background-image: url("../img/footer/원작.png");
+      width: 100vw;
+      height: 100vh;
+      background-repeat: no-repeat;
+      top: 60vh;
+      left: 44vw;
+      background-size: 12vw;
+    }
 
-      .footer3{
-        position: fixed;
-        background-image: url("../img/footer/원작.png");
-        width: 100vw;
-        height: 100vh;
-        background-repeat: no-repeat;
-        top: 60vh;
-        left: 44vw;
-        background-size: 12vw;
-        
-      }
-
-      .footer4{
-        position: fixed;
-        background-image: url("../img/footer/기획.png");
-        width: 100vw;
-        height: 100vh;
-        background-repeat: no-repeat;
-        top: 15vh;
-        left: 45vw;
-        background-size: 10vw;
-        
-      }
-      .footer5{
-        position: fixed;
-        background-image: url("../img/logo/logo_white.png");
-        width: 100vw;
-        height: 100vh;
-        background-repeat: no-repeat;
-        top: 90vh;
-        left: 45vw;
-        background-size: 10vw;
-        opacity: 0.2;
-      }
+    .footer4 {
+      position: fixed;
+      background-image: url("../img/footer/기획.png");
+      width: 100vw;
+      height: 100vh;
+      background-repeat: no-repeat;
+      top: 15vh;
+      left: 45vw;
+      background-size: 10vw;
+    }
+    .footer5 {
+      position: fixed;
+      background-image: url("../img/logo/logo_white.png");
+      width: 100vw;
+      height: 100vh;
+      background-repeat: no-repeat;
+      top: 90vh;
+      left: 45vw;
+      background-size: 10vw;
+      opacity: 0.2;
     }
   }
 }
