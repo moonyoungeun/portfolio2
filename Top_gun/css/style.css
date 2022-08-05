@@ -434,7 +434,7 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   position: fixed;
   background-image: url("../img/charicter/3.png");
   width: 100vw;
-  height: 75vh;
+  height: 100vh;
   top: 8vh;
   left: 0vw;
   background-repeat: no-repeat;
@@ -470,19 +470,18 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   background-size: 100vw;
   top: 0;
   left: 0;
-  opacity: 0;
 }
-.ye03 .footer .footer1 {
-  position: absolute;
+.ye03 .footer1 {
+  position: fixed;
   background-image: url("../img/footer/크래딧.png");
-  width: 100vw;
-  height: 100vh;
-  top: 5vh;
-  left: 44vw;
-  background-size: 10vw;
+  width: 1000vw;
+  height: 1000vh;
+  top: 0vh;
+  left: 43.5vw;
+  background-size: 13vw;
   background-repeat: no-repeat;
 }
-.ye03 .footer .footer2 {
+.ye03 .footer2 {
   position: fixed;
   background-image: url("../img/footer/디자인.png");
   width: 100vw;
@@ -492,7 +491,7 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   left: 45vw;
   background-size: 10vw;
 }
-.ye03 .footer .footer3 {
+.ye03 .footer3 {
   position: fixed;
   background-image: url("../img/footer/원작.png");
   width: 100vw;
@@ -502,7 +501,7 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   left: 44vw;
   background-size: 12vw;
 }
-.ye03 .footer .footer4 {
+.ye03 .footer4 {
   position: fixed;
   background-image: url("../img/footer/기획.png");
   width: 100vw;
@@ -512,7 +511,7 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   left: 45vw;
   background-size: 10vw;
 }
-.ye03 .footer .footer5 {
+.ye03 .footer5 {
   position: fixed;
   background-image: url("../img/logo/logo_white.png");
   width: 100vw;
@@ -522,6 +521,7 @@ header .gnb_opened .gnb_menu_bottom .gnb_menu_bottom_right > a {
   left: 45vw;
   background-size: 10vw;
   opacity: 0.2;
+  z-index: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
